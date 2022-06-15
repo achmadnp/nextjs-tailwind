@@ -94,7 +94,7 @@ const classNames = (...classes) => {
 
 const Header = () => {
   return (
-    <Popover className="relative bg-gradient-to-b from-pink-500  to-indigo-600 shadow-md shadow-black bg-opacity-80 ">
+    <Popover className="absolute w-full z-50 bg-black bg-opacity-20 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -299,7 +299,7 @@ const Header = () => {
                   Sign up
                 </a>
                 <p className="mt-6 text-center text-base font-medium text-gray-500">
-                  Existing customer?{" "}
+                  Existing customer?
                   <a href="#" className="text-indigo-600 hover:text-indigo-500">
                     Sign in
                   </a>
